@@ -59,39 +59,39 @@ rag-knowledge-assistant/
 ## 🚀 Quick Start
 
 ### 1. Clone the repo
-\`\`\`bash
-git clone https://github.com/YOUR_USERNAME/rag-knowledge-assistant.git
+```bash
+git clone https://github.com/Nirvighna04/Enterprise-Knowledge-Assistant-Using-Rag.git
 cd rag-knowledge-assistant
-\`\`\`
+```
 
 ### 2. Create a virtual environment
-\`\`\`bash
+```bash
 python -m venv venv
 source venv/bin/activate      # Mac/Linux
 venv\Scripts\activate         # Windows
-\`\`\`
+```
 
 ### 3. Install dependencies
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 4. Install Ollama + pull a model
-\`\`\`bash
+```bash
 # Install: https://ollama.com/download
 ollama pull llama3
-\`\`\`
+```
 
 ### 5. Configure environment
-\`\`\`bash
+```bash
 cp .env.example .env
 # Set OLLAMA_MODEL=llama3 (or any model you pulled)
-\`\`\`
+```
 
 ### 6. Run
-\`\`\`bash
+```bash
 streamlit run app.py
-\`\`\`
+```
 
 Open **http://localhost:8501**
 
